@@ -1,4 +1,4 @@
-// #![allow(dead_code)]
+#![allow(dead_code)]
 
 const BASE_DIR: &'static str = "C://Users/Mike_/Documents/Rust/advent_of_code/aoc2025/data";
 
