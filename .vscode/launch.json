@@ -23,7 +23,7 @@
             "cargo": {
                 "args": [
                     "test",
-                    "day7",
+                    "day8",
                     "--bin=aoc2025"
                 ]
             }
