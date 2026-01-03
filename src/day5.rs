@@ -94,7 +94,7 @@ mod test {
 
     #[test]
     fn test_part2() {
-        let (fresh, avail) = read_input(&Path::new(BASE_DIR).join("test").join("day5.txt"));
+        let (fresh, _avail) = read_input(&Path::new(BASE_DIR).join("test").join("day5.txt"));
         assert_eq!(pt2(&fresh), 14);
     }
 }
