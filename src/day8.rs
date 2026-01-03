@@ -1,7 +1,7 @@
 use std::fs::read_to_string;
 use std::path::Path;
 use crate::BASE_DIR;
-use std::collections::{HashSet,BTreeMap};
+use std::collections::HashSet;
 
 pub fn run() -> (usize, isize) {
     let path = Path::new(BASE_DIR).join("real").join("day8.txt");
